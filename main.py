@@ -8,10 +8,10 @@ users = Role.objects.get(name='user')
 group1 = Group.objects.get(name='group1')
 group2 = Group.objects.get(name='group2')
 
-user1 = User.objects.get(name='Jake', email='user@example.com', role=admins)
-user2 = User.objects.get(name='John', email='user@google.com', role=admins)
-user3 = User.objects.get(name='Jane', email='user@yahoo.com', role=users)
-user4 = User.objects.get(name='Jill', email='user@ukr.net', role=users)
+user1 = User.objects.get(name='Jake')
+user2 = User.objects.get(name='John')
+user3 = User.objects.get(name='Jane')
+user4 = User.objects.get(name='Jill')
 
 while True:
     choice = input('1. Change user role\n2. Add user to group\n3. Exit\n')
